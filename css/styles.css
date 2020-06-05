@@ -36,6 +36,9 @@ display: table;
 header{
     background-color:yellow;
 }
+footer nav{
+    display: none;
+}
 @media(min-width: 768px){
     .pics{
         float: left;
@@ -80,6 +83,13 @@ header{
     }
     .header2{
         padding: 3%;
+    }
+    footer nav{
+    display: inline;
+    float: right;
+    }
+    .footer-right{
+        display: none;
     }
 }
 @media(min-width:1024px){
